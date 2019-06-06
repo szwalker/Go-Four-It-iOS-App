@@ -1,0 +1,5 @@
+target 'Go Four It' do
+  use_frameworks!
+  pod 'TransitionButton'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+end

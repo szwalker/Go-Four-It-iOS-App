@@ -1,0 +1,20 @@
+PODS:
+  - SkyFloatingLabelTextField (3.7.0)
+  - TransitionButton (0.5.2)
+
+DEPENDENCIES:
+  - SkyFloatingLabelTextField (~> 3.0)
+  - TransitionButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SkyFloatingLabelTextField
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+
+PODFILE CHECKSUM: 5ce89d7cf603a0eab0dc6131c5303cc044517d44
+
+COCOAPODS: 1.6.1

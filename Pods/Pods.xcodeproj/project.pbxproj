@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0345A38BD5C674CD8E19DE062E873389 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904B0B5ECAD136338137D2CE9E4FB451 /* SkyFloatingLabelTextField.swift */; };
+		11D4A6C7B7BEE370DCAA823E7C53AB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		1F0BDABD37863369A436B2AE0043D97F /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AEA90DD9305CFCB238A0435EDDD48 /* TransitionButton.swift */; };
+		240E3843BDAD8FEA47DBF6F80D5B325D /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B83D32631B20F0F3BF3FA15ACDFBC /* UITextField+fixCaretPosition.swift */; };
+		25621AA34F9033F319756CC98E97863F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		288C065B09E4A11095344F421E59B922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		2C724C71F40F5D50841D7AC5B6E8377E /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5855935B97B2D0F6D556DD335F4409 /* FadeTransition.swift */; };
+		46DD441BE16C3801621FEDF8CE8C1C0E /* Pods-Go Four It-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374EE82BEA04BD586322324ED312028A /* Pods-Go Four It-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F76A326F38B6E0A52F179ADB174D68 /* TransitionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A03D63255441949126BCDC1AF0C9117 /* TransitionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B92AF6456A75F14FE9CA725E8EF7F42 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B05614B02011A423EF6D7DA9B8947C65 /* SkyFloatingLabelTextField-dummy.m */; };
+		65E1132D64604E9F4BBE038BC18EED92 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7676EB7B07225C7D68AFC01A3C82007 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		6678454C21E3EE3813954DD201CE68C5 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F23AAEA26CDE4B8CA3BCD00010486 /* SpinerLayer.swift */; };
+		78C0EBE743B1EFA3522682EC3BA8BB7B /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEDEDC3424C9C855C4B05AA4A428856 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		821EF7F365250AA93051850840020670 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D49B1FD75F7C1BE39147CC4D2FCD5F /* CustomTransitionViewController.swift */; };
+		AFFD9B1CDE1EDB955ED89615F62F1F59 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBBFCB7FBBF2FFD8C2EC47CE7EBD488 /* CGRectExtension.swift */; };
+		D218B476E159AD6BD10DD4A823C2379E /* Pods-Go Four It-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AE1B67E9A65E3CAF8ADB7C3A222E66 /* Pods-Go Four It-dummy.m */; };
+		F9C90057EDFE019DDC01BA4A90BCB381 /* TransitionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC2022BA9FF1BB85F1C784702F7A1F5 /* TransitionButton-dummy.m */; };
+		FD1B10918F211AD2A05D07C2A308B5E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0828F4D20AAFCC0003D91AAE31122ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95CF98B04D05A230B12F8AC8A8C2730C;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		9B5B551FCB244D1AED70BCE717DAF2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2907DC6F8486A9F68CEDB26DA5B66E54;
+			remoteInfo = TransitionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0916F123E1D6C0BD962F24E265DFA2D0 /* Pods-Go Four It.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go Four It.modulemap"; sourceTree = "<group>"; };
+		0A6AA6EB27468FFC817B364AD10D7F38 /* Pods-Go Four It.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Four It.release.xcconfig"; sourceTree = "<group>"; };
+		0DBBFCB7FBBF2FFD8C2EC47CE7EBD488 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = Source/CGRectExtension.swift; sourceTree = "<group>"; };
+		11AE1B67E9A65E3CAF8ADB7C3A222E66 /* Pods-Go Four It-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go Four It-dummy.m"; sourceTree = "<group>"; };
+		374EE82BEA04BD586322324ED312028A /* Pods-Go Four It-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go Four It-umbrella.h"; sourceTree = "<group>"; };
+		3BA7A33B2D48F067DA98E8B5005EFC63 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		3BEDEDC3424C9C855C4B05AA4A428856 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		3DC4405615580486F046B80906FCED2B /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47C1523E993D27A90CDF206069517C5E /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		4C28F8357E02854A37018E5666460B51 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		695EBCBABBDEFAF81E34EED9515FDE43 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A03D63255441949126BCDC1AF0C9117 /* TransitionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-umbrella.h"; sourceTree = "<group>"; };
+		6D5B83D32631B20F0F3BF3FA15ACDFBC /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		7EC2022BA9FF1BB85F1C784702F7A1F5 /* TransitionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionButton-dummy.m"; sourceTree = "<group>"; };
+		80C7107987496D2B0690AB08421082F6 /* Pods-Go Four It-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Four It-Info.plist"; sourceTree = "<group>"; };
+		846AD9D046E0F402076092A6144E4360 /* Pods-Go Four It-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go Four It-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E66505F64B5667061652773330788B5 /* Pods_Go_Four_It.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Go_Four_It.framework; path = "Pods-Go Four It.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904B0B5ECAD136338137D2CE9E4FB451 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		921F23AAEA26CDE4B8CA3BCD00010486 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = Source/SpinerLayer.swift; sourceTree = "<group>"; };
+		9D19806F09FD29949D82C41120E507FC /* Pods-Go Four It-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Four It-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40A4B983B984E6282303143A6C9A7EB /* TransitionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TransitionButton-Info.plist"; sourceTree = "<group>"; };
+		A49CFA2956A41A7CB391D9B78DFD6F9C /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
+		A84970762C9380A778F2337850BC023C /* Pods-Go Four It.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Four It.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4D1FA287983A70F559FC58A3B91579 /* TransitionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TransitionButton.framework; path = TransitionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05614B02011A423EF6D7DA9B8947C65 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		B29AEA90DD9305CFCB238A0435EDDD48 /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
+		B91D46E516BDD2ABD18EF020E515BC14 /* Pods-Go Four It-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Go Four It-frameworks.sh"; sourceTree = "<group>"; };
+		BC3AA6A894037A75A52754084F4169CC /* TransitionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TransitionButton.modulemap; sourceTree = "<group>"; };
+		C7676EB7B07225C7D68AFC01A3C82007 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		D5D49B1FD75F7C1BE39147CC4D2FCD5F /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionViewController.swift; path = Source/CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		DCF1DADC70E269C05E032E5DC9757A20 /* TransitionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.xcconfig; sourceTree = "<group>"; };
+		DF5855935B97B2D0F6D556DD335F4409 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDE364949E06A448EF69B63DE374DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1B10918F211AD2A05D07C2A308B5E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54790B019855B5AC7570B19F39A3ACE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D4A6C7B7BEE370DCAA823E7C53AB21 /* Foundation.framework in Frameworks */,
+				25621AA34F9033F319756CC98E97863F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB2F2AE5C2AE47A4C6CD7942E23130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288C065B09E4A11095344F421E59B922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E1357998BF64D2ACD9D28A6CFDD78E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAC5D542B72B6754950D84A8F6BDEAA4 /* Pods-Go Four It */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		708AD9BF0605E065B802413275D12DBD /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				904B0B5ECAD136338137D2CE9E4FB451 /* SkyFloatingLabelTextField.swift */,
+				C7676EB7B07225C7D68AFC01A3C82007 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				6D5B83D32631B20F0F3BF3FA15ACDFBC /* UITextField+fixCaretPosition.swift */,
+				978968BA1AF6449D564D2D9989BB1EC4 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		84B144C482008BAABEBCDB137D9ED801 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AA6A894037A75A52754084F4169CC /* TransitionButton.modulemap */,
+				DCF1DADC70E269C05E032E5DC9757A20 /* TransitionButton.xcconfig */,
+				7EC2022BA9FF1BB85F1C784702F7A1F5 /* TransitionButton-dummy.m */,
+				A40A4B983B984E6282303143A6C9A7EB /* TransitionButton-Info.plist */,
+				A49CFA2956A41A7CB391D9B78DFD6F9C /* TransitionButton-prefix.pch */,
+				6A03D63255441949126BCDC1AF0C9117 /* TransitionButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TransitionButton";
+			sourceTree = "<group>";
+		};
+		978968BA1AF6449D564D2D9989BB1EC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C28F8357E02854A37018E5666460B51 /* SkyFloatingLabelTextField.modulemap */,
+				3DC4405615580486F046B80906FCED2B /* SkyFloatingLabelTextField.xcconfig */,
+				B05614B02011A423EF6D7DA9B8947C65 /* SkyFloatingLabelTextField-dummy.m */,
+				47C1523E993D27A90CDF206069517C5E /* SkyFloatingLabelTextField-Info.plist */,
+				3BA7A33B2D48F067DA98E8B5005EFC63 /* SkyFloatingLabelTextField-prefix.pch */,
+				3BEDEDC3424C9C855C4B05AA4A428856 /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		BAC5D542B72B6754950D84A8F6BDEAA4 /* Pods-Go Four It */ = {
+			isa = PBXGroup;
+			children = (
+				0916F123E1D6C0BD962F24E265DFA2D0 /* Pods-Go Four It.modulemap */,
+				846AD9D046E0F402076092A6144E4360 /* Pods-Go Four It-acknowledgements.markdown */,
+				9D19806F09FD29949D82C41120E507FC /* Pods-Go Four It-acknowledgements.plist */,
+				11AE1B67E9A65E3CAF8ADB7C3A222E66 /* Pods-Go Four It-dummy.m */,
+				B91D46E516BDD2ABD18EF020E515BC14 /* Pods-Go Four It-frameworks.sh */,
+				80C7107987496D2B0690AB08421082F6 /* Pods-Go Four It-Info.plist */,
+				374EE82BEA04BD586322324ED312028A /* Pods-Go Four It-umbrella.h */,
+				A84970762C9380A778F2337850BC023C /* Pods-Go Four It.debug.xcconfig */,
+				0A6AA6EB27468FFC817B364AD10D7F38 /* Pods-Go Four It.release.xcconfig */,
+			);
+			name = "Pods-Go Four It";
+			path = "Target Support Files/Pods-Go Four It";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DB295DC83EC85767B8EC84EA7FC1549D /* Pods */,
+				F3A50ED862252CC002FCC518E0DA705A /* Products */,
+				1E1357998BF64D2ACD9D28A6CFDD78E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB295DC83EC85767B8EC84EA7FC1549D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				708AD9BF0605E065B802413275D12DBD /* SkyFloatingLabelTextField */,
+				ECCC0303A0B5660ABA9371922461F12E /* TransitionButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ECCC0303A0B5660ABA9371922461F12E /* TransitionButton */ = {
+			isa = PBXGroup;
+			children = (
+				0DBBFCB7FBBF2FFD8C2EC47CE7EBD488 /* CGRectExtension.swift */,
+				D5D49B1FD75F7C1BE39147CC4D2FCD5F /* CustomTransitionViewController.swift */,
+				DF5855935B97B2D0F6D556DD335F4409 /* FadeTransition.swift */,
+				921F23AAEA26CDE4B8CA3BCD00010486 /* SpinerLayer.swift */,
+				B29AEA90DD9305CFCB238A0435EDDD48 /* TransitionButton.swift */,
+				84B144C482008BAABEBCDB137D9ED801 /* Support Files */,
+			);
+			name = TransitionButton;
+			path = TransitionButton;
+			sourceTree = "<group>";
+		};
+		F3A50ED862252CC002FCC518E0DA705A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E66505F64B5667061652773330788B5 /* Pods_Go_Four_It.framework */,
+				695EBCBABBDEFAF81E34EED9515FDE43 /* SkyFloatingLabelTextField.framework */,
+				AC4D1FA287983A70F559FC58A3B91579 /* TransitionButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EC74BFD3CBE40263585EF82E9671315 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C0EBE743B1EFA3522682EC3BA8BB7B /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9376379388F92F54443EF258CA7998D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DD441BE16C3801621FEDF8CE8C1C0E /* Pods-Go Four It-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC60BB321FC68F55875EAD63C3F08C55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F76A326F38B6E0A52F179ADB174D68 /* TransitionButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2907DC6F8486A9F68CEDB26DA5B66E54 /* TransitionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1059743BE259C00DB896A93F5E7EBA6 /* Build configuration list for PBXNativeTarget "TransitionButton" */;
+			buildPhases = (
+				DC60BB321FC68F55875EAD63C3F08C55 /* Headers */,
+				116C9BBE1A8B468A83E15E7770C67806 /* Sources */,
+				54790B019855B5AC7570B19F39A3ACE6 /* Frameworks */,
+				6749E446DE8C4A5ECFF291C7030FD2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionButton;
+			productName = TransitionButton;
+			productReference = AC4D1FA287983A70F559FC58A3B91579 /* TransitionButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		413F97A0DA2051CC2E5B7D1C2E520F6A /* Pods-Go Four It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D792153E9C714DA29627290921F3D3 /* Build configuration list for PBXNativeTarget "Pods-Go Four It" */;
+			buildPhases = (
+				B9376379388F92F54443EF258CA7998D /* Headers */,
+				E7D25012DB7C5B71C572E25121561174 /* Sources */,
+				F6FB2F2AE5C2AE47A4C6CD7942E23130 /* Frameworks */,
+				A9CCE2E553235DCD6A22513C8A3FA9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D033F6DA1B68BB198C3797DE92AEFA /* PBXTargetDependency */,
+				FABBAB4A092EF3221AB05CC30625CE92 /* PBXTargetDependency */,
+			);
+			name = "Pods-Go Four It";
+			productName = "Pods-Go Four It";
+			productReference = 8E66505F64B5667061652773330788B5 /* Pods_Go_Four_It.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95CF98B04D05A230B12F8AC8A8C2730C /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C67A0780A2566E67F01295B87CDC2DC /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				2EC74BFD3CBE40263585EF82E9671315 /* Headers */,
+				6D6A07BD6CD4DD2B320CA19D5FDA107A /* Sources */,
+				0BDE364949E06A448EF69B63DE374DD4 /* Frameworks */,
+				E2C26F67EF54DDAEB37DC1D2AE01F374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 695EBCBABBDEFAF81E34EED9515FDE43 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F3A50ED862252CC002FCC518E0DA705A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413F97A0DA2051CC2E5B7D1C2E520F6A /* Pods-Go Four It */,
+				95CF98B04D05A230B12F8AC8A8C2730C /* SkyFloatingLabelTextField */,
+				2907DC6F8486A9F68CEDB26DA5B66E54 /* TransitionButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6749E446DE8C4A5ECFF291C7030FD2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CCE2E553235DCD6A22513C8A3FA9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C26F67EF54DDAEB37DC1D2AE01F374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116C9BBE1A8B468A83E15E7770C67806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFD9B1CDE1EDB955ED89615F62F1F59 /* CGRectExtension.swift in Sources */,
+				821EF7F365250AA93051850840020670 /* CustomTransitionViewController.swift in Sources */,
+				2C724C71F40F5D50841D7AC5B6E8377E /* FadeTransition.swift in Sources */,
+				6678454C21E3EE3813954DD201CE68C5 /* SpinerLayer.swift in Sources */,
+				F9C90057EDFE019DDC01BA4A90BCB381 /* TransitionButton-dummy.m in Sources */,
+				1F0BDABD37863369A436B2AE0043D97F /* TransitionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6A07BD6CD4DD2B320CA19D5FDA107A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B92AF6456A75F14FE9CA725E8EF7F42 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				0345A38BD5C674CD8E19DE062E873389 /* SkyFloatingLabelTextField.swift in Sources */,
+				65E1132D64604E9F4BBE038BC18EED92 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				240E3843BDAD8FEA47DBF6F80D5B325D /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D25012DB7C5B71C572E25121561174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D218B476E159AD6BD10DD4A823C2379E /* Pods-Go Four It-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D033F6DA1B68BB198C3797DE92AEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = 95CF98B04D05A230B12F8AC8A8C2730C /* SkyFloatingLabelTextField */;
+			targetProxy = 0828F4D20AAFCC0003D91AAE31122ED8 /* PBXContainerItemProxy */;
+		};
+		FABBAB4A092EF3221AB05CC30625CE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TransitionButton;
+			target = 2907DC6F8486A9F68CEDB26DA5B66E54 /* TransitionButton */;
+			targetProxy = 9B5B551FCB244D1AED70BCE717DAF2E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0603C049A8935EFD2FAE0AFD19D066E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84970762C9380A778F2337850BC023C /* Pods-Go Four It.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Four It/Pods-Go Four It-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Four It/Pods-Go Four It.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C82A44A1958949A9C936401B3D1F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF1DADC70E269C05E032E5DC9757A20 /* TransitionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionButton/TransitionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
+				PRODUCT_MODULE_NAME = TransitionButton;
+				PRODUCT_NAME = TransitionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		88881CDB08E0CC3A0F5019DC98C857E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF1DADC70E269C05E032E5DC9757A20 /* TransitionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionButton/TransitionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
+				PRODUCT_MODULE_NAME = TransitionButton;
+				PRODUCT_NAME = TransitionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD419D07ED31AA350A7DDDE43392097B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC4405615580486F046B80906FCED2B /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F17AF707DF83BBFAB72473893C86AE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6AA6EB27468FFC817B364AD10D7F38 /* Pods-Go Four It.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Four It/Pods-Go Four It-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Four It/Pods-Go Four It.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5D08E885E08D068429A47925CCEF7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC4405615580486F046B80906FCED2B /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C67A0780A2566E67F01295B87CDC2DC /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D08E885E08D068429A47925CCEF7C4 /* Debug */,
+				CD419D07ED31AA350A7DDDE43392097B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D792153E9C714DA29627290921F3D3 /* Build configuration list for PBXNativeTarget "Pods-Go Four It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0603C049A8935EFD2FAE0AFD19D066E7 /* Debug */,
+				F17AF707DF83BBFAB72473893C86AE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1059743BE259C00DB896A93F5E7EBA6 /* Build configuration list for PBXNativeTarget "TransitionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C82A44A1958949A9C936401B3D1F65A /* Debug */,
+				88881CDB08E0CC3A0F5019DC98C857E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

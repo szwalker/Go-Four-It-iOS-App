@@ -1,0 +1,6 @@
+framework module Pods_Go_Four_It {
+  umbrella header "Pods-Go Four It-umbrella.h"
+
+  export *
+  module * { export * }
+}
