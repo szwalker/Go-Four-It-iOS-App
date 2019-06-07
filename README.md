@@ -1,5 +1,8 @@
 # Go-Four-It-iOS-App
-![Logo view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/IMG_8673.PNG)
+<!-- ![Logo view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/IMG_8673.PNG) -->
+
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/IMG_8673.PNG" width="300" height="300" />
+
 
 Go Four It is an Augmented Reality 3D game based on a classic game called Connect Four. Player will play against a friend and try to connect four pieces into a line, which can be vertical, horizontal, or diagonal across space.
 
@@ -17,13 +20,28 @@ A video demo for the multi-device mode:
 A video demo for the single device mode:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mRGp-DwrjQU" target="_blank"><img src="http://img.youtube.com/vi/mRGp-DwrjQU/0.jpg" alt="Click Me" width="240" height="180" border="10" /></a>
-
+<!--
 Start view:
-![start view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/start.PNG)
+![start view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/start.PNG) -->
 
-Multi-device view:
+App Start View:
 
-![Multi view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/multi.PNG)
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/start.PNG" width="300" height="600" />
+
+Multi-Device (Connect) mode:
+
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/multi.PNG" width="300" height="600" />
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/Connect.PNG" width="300" height="600" />
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/browserVC.PNG" width="300" height="600" />
+
+Single device (Solo) mode:
+
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/solo.PNG" width="300" height="600" />
+
+Game View:
+
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/poleselected.PNG" width="300" height="600" />
+<img src="https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/Detail2.PNG" width="300" height="600" />
 
 
 # Technical Description
