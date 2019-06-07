@@ -9,12 +9,15 @@ This iOS App is designed and developed by Jiaqi Liu(jiaqi.liu@nyu.edu) and Cheny
 
 # App Screenshots
 A video demo for the multi-device mode:
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/c7c25S5IIM/0.jpg)](http://www.youtube.com/watch?v=c7c25S5IIM)
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LyKU80VSonU" target="_blank"><img src="http://img.youtube.com/vi/LyKU80VSonU/0.jpg" alt="Click Me" width="240" height="180" border="10" />
+</a>
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=c7c25S5IIM
-" target="_blank"><img src="http://img.youtube.com/vi/c7c25S5IIM/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+A video demo for the single device mode:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mRGp-DwrjQU" target="_blank"><img src="http://img.youtube.com/vi/mRGp-DwrjQU/0.jpg"
+alt="Click Me" width="240" height="180" border="10" /></a>
+
 
 
 # Technical Description
