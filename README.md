@@ -9,11 +9,11 @@ This iOS App is designed and developed by Jiaqi Liu(jiaqi.liu@nyu.edu) and Cheny
 
 # App Screenshots
 A video demo for the multi-device mode:
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=https://youtu.be/mRGp-DwrjQU)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/c7c25S5IIM/0.jpg)](http://www.youtube.com/watch?v=c7c25S5IIM)
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/mRGp-DwrjQU/0.jpg"
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=c7c25S5IIM
+" target="_blank"><img src="http://img.youtube.com/vi/c7c25S5IIM/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
