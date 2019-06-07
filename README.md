@@ -1,23 +1,29 @@
 # Go-Four-It-iOS-App
+![Logo view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/IMG_8673.PNG)
+
 Go Four It is an Augmented Reality 3D game based on a classic game called Connect Four. Player will play against a friend and try to connect four pieces into a line, which can be vertical, horizontal, or diagonal across space.
 
 In order to place your piece onto the desired pole, players need to select the pole simply by touching. Once the selected pole is highlighted in yellow, press confirm to drop the piece. The player who first connect four pieces into a line wins the game.
 
-An amazing feature of Go Four It is that it supports two mode: single device mode and multi-device mode. Players can play on a single device in turn as well as connect two phones to play on their own phone. With the multi-device later mode, both players will have the same 3D immersive experience with the augmented reality, providing a unique and mind challenging opportunity for all players to explore the game.
+An amazing feature of Go Four It is that it supports two mode: single device mode (Solo) and multi-device mode (Connect). Players can play on a single device in turn as well as connect two phones to play on their own phone. With the multi-device later mode, both players will have the same 3D immersive experience with the augmented reality, providing a unique and mind challenging opportunity for all players to explore the game.
 
 This iOS App is designed and developed by Jiaqi Liu(jiaqi.liu@nyu.edu) and Chenyu Liu(cl3679@nyu.edu).
 
 # App Screenshots
 A video demo for the multi-device mode:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=LyKU80VSonU" target="_blank"><img src="http://img.youtube.com/vi/LyKU80VSonU/0.jpg" alt="Click Me" width="240" height="180" border="10" />
-</a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LyKU80VSonU" target="_blank"><img src="http://img.youtube.com/vi/LyKU80VSonU/0.jpg" alt="Click Me" width="240" height="180" border="10" /></a>
 
 A video demo for the single device mode:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=mRGp-DwrjQU" target="_blank"><img src="http://img.youtube.com/vi/mRGp-DwrjQU/0.jpg"
-alt="Click Me" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mRGp-DwrjQU" target="_blank"><img src="http://img.youtube.com/vi/mRGp-DwrjQU/0.jpg" alt="Click Me" width="240" height="180" border="10" /></a>
 
+Start view:
+![start view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/start.PNG)
+
+Multi-device view:
+
+![Multi view](https://raw.githubusercontent.com/szwalker/Go-Four-It-iOS-App/master/image/multi.PNG)
 
 
 # Technical Description
@@ -34,8 +40,8 @@ The ARKit is used for rendering an augmented reality view and providing us optio
 The `SceneKit` provides us a node tree for the view, and allows us to attach or remove any scenes to the view to display and interact with the user.
 
 We used `AVFoundation` to provide sound effects on the following events have occurred:
-1. when the user pressed the confirm button and placed a chess on board;
-2. when a winner occurred;
+1. when the user pressed the confirm button and placed a chess on board.
+2. when a winner occurred.
 3. when a user pressed the quit button.
 4. when a user selects the solo mode.
 
