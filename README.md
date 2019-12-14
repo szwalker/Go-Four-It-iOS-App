@@ -10,7 +10,7 @@ In order to place your piece onto the desired pole, players need to select the p
 
 An amazing feature of Go Four It is that it supports two mode: single device mode (Solo) and multi-device mode (Connect). Players can play on a single device in turn as well as connect two phones to play on their own phone. With the multi-device later mode, both players will have the same 3D immersive experience with the augmented reality, providing a unique and mind challenging opportunity for all players to explore the game.
 
-This iOS App is designed and developed by Jiaqi Liu(jiaqi.liu@nyu.edu) and Chenyu Liu(cl3679@nyu.edu).
+This iOS App is designed and developed by Jiaqi Liu(jl8456@nyu.edu) and Chenyu Liu(cl3679@nyu.edu).
 
 # App Screenshots
 A video demo for the multi-device mode:
